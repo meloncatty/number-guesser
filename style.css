@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', serif;
+}
+
+header {
+  background: #404041;
+  padding: 20px;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2em;
+}
+
+span {
+  font-weight: 300;
+  color: #E6E7E8;
+}
+
+strong {
+  color: #ED458B;
+}
+
+#user-input {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0 auto;
+  /* width: 40%; */
+}
+
+#reset {
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  /* width: 30%; */
+}
+
+body {
+  position: relative;
+  width: 100%;
+  display: block;
+  color: #404041;
+}
+
+form > *  {
+  margin: auto;
+  width: 400px;
+  display: block;
+  overflow: auto;
+}
+
+button {
+  background: #929497;
+  color: #fff ;
+  border-radius: 36px 36px;
+  outline: none;
+}
+
+button:disabled {
+  background: #D0D2D3;
+  color: #fff;
+}
+
+button:hover:enabled {
+  background: #EB008B;
+  color: #fff;
+}
+
+#display-guess {
+  color: #EB008B;
+  font-size: 10em;
+}
+
+p {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#submit, #clear {
+  /* width: 50%; */
+  font-size: 1.5em;
+  float: left;
+  width: calc(50% - 10px);
+  margin-bottom: 30px;
+}
+
+#clear {
+  margin-left: 20px;
+}
+
+#reset {
+  font-size: 1.5em;
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+/* #button-container {
+  text-align: center;
+  margin-bottom: 30px;
+} */
+
+#user-min, #user-max {
+  /* width: 30%; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#range-container {
+  width: 50%;
+  font-size: 1.5em;
+  /* float: left; */
+  /* width: calc(50% - 10px); */
+  margin-bottom: 30px;
+  padding: 0 auto;
+}

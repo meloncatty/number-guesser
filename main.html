@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Number Guesser</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+</head>
+<body>
+  <header><h1><strong>Number</strong> <span>Guesser</span></h1></header>
+  <form id="guess-form">
+    <input type="text" placeholder="Enter your guess" id="user-input">
+    <section id="button-container">
+      <button type="submit" id="submit" disabled>Guess</button>
+      <button type="submit" id="clear" disabled>Clear</button>
+    </section>
+    <p id="displayNewRange"></p>
+    <p>Your last guess was</p>
+    <p id="display-guess">?</p>
+    <p id="display-hint"></p>
+    <input placeholder="Enter min" type="number" id= "user-min">
+    <input placeholder="Enter max" type="number" id= "user-max">
+    <button type="button" id="reset" disabled>Reset</button>
+  </form>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+    <script type="text/javascript" src="guessReDo.js"></script>
+</body>
+</html>
